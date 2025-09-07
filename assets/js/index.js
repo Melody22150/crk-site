@@ -13,7 +13,7 @@ fetch("assets/data/maj.json")
     const container = document.querySelector(".cartes-cookies");
     data.forEach(cookie => {
       const link = document.createElement("a");
-      link.href = cookie.link;
+      link.href = "pages/" + cookie.link;;
 
       const img = document.createElement("img");
       img.src = "assets/images/" + cookie.image;
