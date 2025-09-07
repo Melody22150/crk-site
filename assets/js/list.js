@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <img src="../assets/images/${cookie.image}" alt="${cookie.nom}" class="cookie-head">
           </div>
           <div class="fond-img">
-            <img src="../assets/images/${cookie.rarete}" alt="Rareté" class="badge-epique">
+            <img src="../assets/images/${cookie.rarete}" alt="rarete" class="badge-epique">
           </div>
         </div>
         ${blocCentreHTML}

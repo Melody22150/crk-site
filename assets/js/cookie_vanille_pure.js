@@ -55,9 +55,9 @@ elements.forEach(img => {
       const iconImg = costumeItem.querySelector('.costume-icon img');
       if (iconImg) {
         if (currentStep === 2) {
-          iconImg.src = "../assets/images/rareté/mythique_costume.webp";
+          iconImg.src = "../assets/images/rarete/mythique_costume.webp";
         } else {
-          iconImg.src = "../assets/images/rareté/legendaire_costume.webp";
+          iconImg.src = "../assets/images/rarete/legendaire_costume.webp";
         }
       }
     }

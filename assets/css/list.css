@@ -336,7 +336,7 @@ body.list {
   align-items: center;
 }
 
-/* Cas avec plusieurs éléments */
+/* Cas avec plusieurs elements_crk */
 .bloc-centre.multi-elements {
   flex-direction: row;
   flex-wrap: wrap; /* C’est le point clé */
