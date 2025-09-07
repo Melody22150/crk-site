@@ -2,37 +2,37 @@
   {
     "nom": "Cookie Fromage doré",
     "image": "cookies/cookie_fromage_doré/cookie_fromage_dore_carte.webp",
-    "link": "/pages/cookie_fromage_dore.html",
+    "link": "pages/cookie_fromage_dore.html",
     "date": "2025-09-07"
   }, 
   {
     "nom": "Cookie Madeleine",
     "image": "cookies/cookie_madeleine/cookie_madeleine_carte.webp",
-    "link": "/pages/cookie_madeleine.html",
+    "link": "pages/cookie_madeleine.html",
     "date": "2025-09-07"
   }, 
   {
     "nom": "Cookie Menthol",
     "image": "cookies/cookie_eau_gazeuse/cookie_eau_gazeuse_carte.webp",
-    "link": "/pages/cookie_eau_gazeuse.html",
+    "link": "pages/cookie_eau_gazeuse.html",
     "date": "2025-09-07"
   }, 
   {
     "nom": "Cookie Menthol",
     "image": "cookies/cookie_menthol/cookie_menthol_carte.webp",
-    "link": "/pages/cookie_menthol.html",
+    "link": "pages/cookie_menthol.html",
     "date": "2025-09-07"
   }, 
   {
     "nom": "Farinel",
     "image": "cookies/farinel/farinel_carte.webp",
-    "link": "/pages/farinel.html",
+    "link": "pages/farinel.html",
     "date": "2025-09-07"
   }, 
   {
     "nom": "Cookie Pamplemousse",
     "image": "cookies/cookie_pamplemousse/cookie_pamplemousse_carte.webp",
-    "link": "/pages/cookie_pamplemousse.html",
+    "link": "pages/cookie_pamplemousse.html",
     "date": "2025-09-07"
   }
 ]
