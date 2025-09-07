@@ -24,7 +24,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/farinel.html"
+    "lien": "pages/farinel.html"
   },
   {
     "id": "cookie-pamplemousse",
@@ -33,7 +33,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_pamplemousse.html"
+    "lien": "pages/cookie_pamplemousse.html"
   },
   {
     "id": "cookie-citron-vert",
@@ -42,7 +42,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_citron_vert.html"
+    "lien": "pages/cookie_citron_vert.html"
   },
   {
     "id": "cookie-manju",
@@ -51,7 +51,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_manju.html"
+    "lien": "pages/cookie_manju.html"
   },
   {
     "id": "cookie-nacre-oceane",
@@ -60,7 +60,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_nacre_oceane.html"
+    "lien": "pages/cookie_nacre_oceane.html"
   },
   {
     "id": "cookie-orange",
@@ -69,7 +69,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_orange.html"
+    "lien": "pages/cookie_orange.html"
   },
   {
     "id": "cookie-lemon",
@@ -78,7 +78,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_citron_jaune.html"
+    "lien": "pages/cookie_citron_jaune.html"
   },
   {
     "id": "cookie-lapin-marshmallow",
@@ -87,7 +87,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_lapin_marshmallow.html"
+    "lien": "pages/cookie_lapin_marshmallow.html"
   },
   {
     "id": "cookie-soda-mousse",
@@ -96,7 +96,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_soda_mousse.html"
+    "lien": "pages/cookie_soda_mousse.html"
   },
   {
     "id": "cookie-mouche-sucree",
@@ -105,7 +105,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_mouche_sucree.html"
+    "lien": "pages/cookie_mouche_sucree.html"
   },
   {
     "id": "cookie-pavlova",
@@ -114,7 +114,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "",
-    "lien": "/pages/cookie_pavlova.html"
+    "lien": "pages/cookie_pavlova.html"
   },
   {
     "id": "cookie-sucre-eternel",
@@ -123,7 +123,7 @@
     "rarete": "rareté/bete.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_sucre_eternel.html"
+    "lien": "pages/cookie_sucre_eternel.html"
   },
   {
     "id": "cookie-agar-agar",
@@ -133,7 +133,7 @@
     "role": "classe/embuscade.webp",
     "element": ["éléments/element_feu.webp", "éléments/element_electricite.webp", "éléments/element_eau.webp", 
     "éléments/element_vent.webp", "éléments/element_glace.webp"],
-    "lien": "/pages/cookie_agar_agar.html"
+    "lien": "pages/cookie_agar_agar.html"
   },
   {
     "id": "cookie-esprit-du-feu",
@@ -142,7 +142,7 @@
     "rarete": "rareté/legendaire.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_esprit_du_feu.html"
+    "lien": "pages/cookie_esprit_du_feu.html"
   },
   {
     "id": "cookie-foret-noire",
@@ -151,7 +151,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "",
-    "lien": "/pages/cookie_foret_noire.html"
+    "lien": "pages/cookie_foret_noire.html"
   },
   {
     "id": "cookie-piece-montee",
@@ -160,7 +160,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "",
-    "lien": "/pages/cookie_piece_montee.html"
+    "lien": "pages/cookie_piece_montee.html"
   },
   {
     "id": "cookie-saphir-noir",
@@ -169,7 +169,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_saphir_noir.html"
+    "lien": "pages/cookie_saphir_noir.html"
   },
   {
     "id": "cookie-pomme-d-amour",
@@ -178,7 +178,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "",
-    "lien": "/pages/cookie_pomme_d_amour.html"
+    "lien": "pages/cookie_pomme_d_amour.html"
   },
   {
     "id": "cookie-lait-de-l-ombre",
@@ -187,7 +187,7 @@
     "rarete": "rareté/bete.webp",
     "role": "classe/magie.webp",
     "element": "",
-    "lien": "/pages/cookie_lait_de_l_ombre.html"
+    "lien": "pages/cookie_lait_de_l_ombre.html"
   },
   {
     "id": "cookie-okchun",
@@ -196,7 +196,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_okchun.html"
+    "lien": "pages/cookie_okchun.html"
   },
   {
     "id": "cookie-mousse-au-the-vert",
@@ -205,7 +205,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_vent.webp",
-    "lien": "/pages/cookie_mousse_au_the_vert.html"
+    "lien": "pages/cookie_mousse_au_the_vert.html"
   },
   {
     "id": "cookie-pudding-a-la-mode",
@@ -214,7 +214,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_pudding_a_la_mode.html"
+    "lien": "pages/cookie_pudding_a_la_mode.html"
   },
   {
     "id": "cookie-choco-nappe",
@@ -223,7 +223,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_choco_nappe.html"
+    "lien": "pages/cookie_choco_nappe.html"
   },
   {
     "id": "cookie-bouton-de-braise",
@@ -232,7 +232,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "",
-    "lien": "/pages/cookie_bouton_de_braise.html"
+    "lien": "pages/cookie_bouton_de_braise.html"
   },
   {
     "id": "cookie-bouton-d-or",
@@ -241,7 +241,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "",
-    "lien": "/pages/cookie_bouton_d_or.html"
+    "lien": "pages/cookie_bouton_d_or.html"
   },
   {
     "id": "cookie-camelia",
@@ -250,7 +250,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/assaut.webp",
     "element": "",
-    "lien": "/pages/cookie_camelia.html"
+    "lien": "pages/cookie_camelia.html"
   },
   {
     "id": "cookie-fromage-fume",
@@ -259,7 +259,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_fromage_fume.html"
+    "lien": "pages/cookie_fromage_fume.html"
   },
   {
     "id": "cookie-muscade-tigree",
@@ -268,7 +268,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_muscade_tigree.html"
+    "lien": "pages/cookie_muscade_tigree.html"
   },
   {
     "id": "cookie-epices-ardentes",
@@ -277,7 +277,7 @@
     "rarete": "rareté/bete.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_epices_ardentes.html"
+    "lien": "pages/cookie_epices_ardentes.html"
   },
   {
     "id": "cookie-archer-du-vent",
@@ -286,7 +286,7 @@
     "rarete": "rareté/legendaire.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_vent.webp",
-    "lien": "/pages/cookie_archer_du_vent.html"
+    "lien": "pages/cookie_archer_du_vent.html"
   },
   {
     "id": "cookie-corail-etoile",
@@ -295,7 +295,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_corail_etoile.html"
+    "lien": "pages/cookie_corail_etoile.html"
   },
   {
     "id": "cookie-belette-a-la-creme",
@@ -304,7 +304,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_belette_a_la_creme.html"
+    "lien": "pages/cookie_belette_a_la_creme.html"
   },
   {
     "id": "cookie-fleur-de-pecher",
@@ -313,7 +313,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_fleur_de_pecher.html"
+    "lien": "pages/cookie_fleur_de_pecher.html"
   },
   {
     "id": "cookie-haetae-des-nuages",
@@ -322,7 +322,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "",
-    "lien": "/pages/cookie_haetae_des_nuages.html"
+    "lien": "pages/cookie_haetae_des_nuages.html"
   },
   {
     "id": "cookie-farine-mystique",
@@ -331,7 +331,7 @@
     "rarete": "rareté/bete.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_farine_mystique.html"
+    "lien": "pages/cookie_farine_mystique.html"
   },
   {
     "id": "cookie-brise-tonnerre",
@@ -340,7 +340,7 @@
     "rarete": "rareté/legendaire.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_brise_tonnerre.html"
+    "lien": "pages/cookie_brise_tonnerre.html"
   },
   {
     "id": "cookie-oursin",
@@ -349,7 +349,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_oursin.html"
+    "lien": "pages/cookie_oursin.html"
   },
   {
     "id": "cookie-saint-honore",
@@ -358,7 +358,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_saint_honore.html"
+    "lien": "pages/cookie_saint_honore.html"
   },
   {
     "id": "cookie-brioche-beurree",
@@ -367,7 +367,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_brioche_beurree.html"
+    "lien": "pages/cookie_brioche_beurree.html"
   },
   {
     "id": "cookie-roi-des-fees",
@@ -376,7 +376,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_roi_des_fees.html"
+    "lien": "pages/cookie_roi_des_fees.html"
   },
   {
     "id": "cookie-matcha",
@@ -385,7 +385,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_matcha.html"
+    "lien": "pages/cookie_matcha.html"
   },
   {
     "id": "cookie-chevalier-vif-argent",
@@ -394,7 +394,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_chevalier_vif_argent.html"
+    "lien": "pages/cookie_chevalier_vif_argent.html"
   },
   {
     "id": "cookie-muguet",
@@ -403,7 +403,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_muguet.html"
+    "lien": "pages/cookie_muguet.html"
   },
   {
     "id": "cookie-lys-blanc",
@@ -412,7 +412,7 @@
     "rarete": "rareté/antique.webp",
     "role": "classe/explosion.webp",
     "element": "",
-    "lien": "/pages/cookie_lys_blanc.html"
+    "lien": "pages/cookie_lys_blanc.html"
   },
   {
     "id": "cookie-justicier",
@@ -421,7 +421,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_vent.webp",
-    "lien": "/pages/cookie_justicier.html"
+    "lien": "pages/cookie_justicier.html"
   },
   {
     "id": "cookie-linzer",
@@ -430,7 +430,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_linzer.html"
+    "lien": "pages/cookie_linzer.html"
   },
   {
     "id": "cookie-creme-brulee",
@@ -439,7 +439,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_lumiere.webp",
-    "lien": "/pages/cookie_creme_brulee.html"
+    "lien": "pages/cookie_creme_brulee.html"
   },
   {
     "id": "cookie-yeti-givre",
@@ -448,7 +448,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/soin.webp",
     "element": "éléments/element_glace.webp",
-    "lien": "/pages/cookie_yeti_givre.html"
+    "lien": "pages/cookie_yeti_givre.html"
   },
   {
     "id": "cookie-olive",
@@ -457,7 +457,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": ["éléments/element_terre.webp", "éléments/element_feu.webp", "éléments/element_electricite.webp"],
-    "lien": "/pages/cookie_olive.html"
+    "lien": "pages/cookie_olive.html"
   },
   {
     "id": "cookie-mozzarella",
@@ -466,7 +466,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_mozzarella.html"
+    "lien": "pages/cookie_mozzarella.html"
   },
   {
     "id": "cookie-fettuccine",
@@ -475,7 +475,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_fettuccine.html"
+    "lien": "pages/cookie_fettuccine.html"
   },
   {
     "id": "cookie-tourteau-fromage",
@@ -484,7 +484,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_tourteau_fromage.html"
+    "lien": "pages/cookie_tourteau_fromage.html"
   },
   {
     "id": "cookie-fromage-dore",
@@ -493,7 +493,7 @@
     "rarete": "rareté/antique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_fromage_dore.html"
+    "lien": "pages/cookie_fromage_dore.html"
   },
   {
     "id": "cookie-meduse-mousseline",
@@ -502,7 +502,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": ["éléments/element_eau.webp", "éléments/element_electricite.webp"],
-    "lien": "/pages/cookie_meduse_mousseline.html"
+    "lien": "pages/cookie_meduse_mousseline.html"
   },
   {
     "id": "cookie-corail-carmin",
@@ -511,7 +511,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_corail_carmin.html"
+    "lien": "pages/cookie_corail_carmin.html"
   },
   {
     "id": "cookie-menthe-poivree",
@@ -520,7 +520,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_menthe_poivree.html"
+    "lien": "pages/cookie_menthe_poivree.html"
   },
   {
     "id": "cookie-limonade-noire",
@@ -529,7 +529,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_limonade_noire.html"
+    "lien": "pages/cookie_limonade_noire.html"
   },
   {
     "id": "cookie-rockstar",
@@ -538,7 +538,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_rockstar.html"
+    "lien": "pages/cookie_rockstar.html"
   },
   {
     "id": "cookie-paillettes-brillantes",
@@ -547,7 +547,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_paillettes_brillantes.html"
+    "lien": "pages/cookie_paillettes_brillantes.html"
   },
   {
     "id": "cookie-sang-dragon",
@@ -556,7 +556,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_sang_dragon.html"
+    "lien": "pages/cookie_sang_dragon.html"
   },
   {
     "id": "cookie-tarte-tatin",
@@ -565,7 +565,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_tarte_tatin.html"
+    "lien": "pages/cookie_tarte_tatin.html"
   },
   {
     "id": "cookie-margarine-royale",
@@ -574,7 +574,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_margarine_royale.html"
+    "lien": "pages/cookie_margarine_royale.html"
   },
   {
     "id": "cookie-fruit-du-dragon",
@@ -583,7 +583,7 @@
     "rarete": "rareté/dragon.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_fruit_du_dragon.html"
+    "lien": "pages/cookie_fruit_du_dragon.html"
   },
   {
     "id": "cookie-kouign-amann",
@@ -592,7 +592,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_lumiere.webp",
-    "lien": "/pages/cookie_kouign_amann.html"
+    "lien": "pages/cookie_kouign_amann.html"
   },
   {
     "id": "cookie-jus-de-pruneaux",
@@ -601,7 +601,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_jus_de_pruneaux.html"
+    "lien": "pages/cookie_jus_de_pruneaux.html"
   },
   {
     "id": "cookie-capsaicine",
@@ -610,7 +610,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_capsaicine.html"
+    "lien": "pages/cookie_capsaicine.html"
   },
   {
     "id": "donut-de-l-espace",
@@ -619,7 +619,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "",
-    "lien": "/pages/donut_de_l_espace.html"
+    "lien": "pages/donut_de_l_espace.html"
   },
   {
     "id": "cookie-poussiere-d-etoile",
@@ -628,7 +628,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_poussiere_d_etoile.html"
+    "lien": "pages/cookie_poussiere_d_etoile.html"
   },
   {
     "id": "cookie-tarte-aux-myrtilles",
@@ -637,7 +637,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_tarte_aux_myrtilles.html"
+    "lien": "pages/cookie_tarte_aux_myrtilles.html"
   },
   {
     "id": "cookie-clair-de-lune",
@@ -646,7 +646,7 @@
     "rarete": "rareté/legendaire.webp",
     "role": "classe/magie.webp",
     "element": "",
-    "lien": "/pages/cookie_clair_de_lune.html"
+    "lien": "pages/cookie_clair_de_lune.html"
   },
   {
     "id": "cookie-voie-lactee",
@@ -655,7 +655,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "",
-    "lien": "/pages/cookie_voie_lactee.html"
+    "lien": "pages/cookie_voie_lactee.html"
   },
   {
     "id": "cookie-prophete",
@@ -664,7 +664,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_prophete.html"
+    "lien": "pages/cookie_prophete.html"
   },
   {
     "id": "cookie-pomme-de-pin",
@@ -673,7 +673,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_glace.webp",
-    "lien": "/pages/cookie_pomme_de_pin.html"
+    "lien": "pages/cookie_pomme_de_pin.html"
   },
   {
     "id": "cookie-de-l-avent",
@@ -682,7 +682,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_de_l_avent.html"
+    "lien": "pages/cookie_de_l_avent.html"
   },
   {
     "id": "cookie-sorbet",
@@ -691,7 +691,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_glace.webp",
-    "lien": "/pages/cookie_sorbet.html"
+    "lien": "pages/cookie_sorbet.html"
   },
   {
     "id": "cookie-macaron",
@@ -700,7 +700,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "",
-    "lien": "/pages/cookie_macaron.html"
+    "lien": "pages/cookie_macaron.html"
   },
   {
     "id": "cookie-rm",
@@ -709,7 +709,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/bts.webp",
     "element": "",
-    "lien": "/pages/cookie_rm.html"
+    "lien": "pages/cookie_rm.html"
   },
   {
     "id": "cookie-jin",
@@ -718,7 +718,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/bts.webp",
     "element": "",
-    "lien": "/pages/cookie_jin.html"
+    "lien": "pages/cookie_jin.html"
   },
   {
     "id": "cookie-suga",
@@ -727,7 +727,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/bts.webp",
     "element": "",
-    "lien": "/pages/cookie_suga.html"
+    "lien": "pages/cookie_suga.html"
   },
   {
     "id": "cookie-j-hope",
@@ -736,7 +736,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/bts.webp",
     "element": "",
-    "lien": "/pages/cookie_j_hope.html"
+    "lien": "pages/cookie_j_hope.html"
   },
   {
     "id": "cookie-jimin",
@@ -745,7 +745,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/bts.webp",
     "element": "",
-    "lien": "/pages/cookie_jimin.html"
+    "lien": "pages/cookie_jimin.html"
   },
   {
     "id": "cookie-v",
@@ -754,7 +754,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/bts.webp",
     "element": "",
-    "lien": "/pages/cookie_v.html"
+    "lien": "pages/cookie_v.html"
   },
   {
     "id": "cookie-jung-kook",
@@ -763,7 +763,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/bts.webp",
     "element": "",
-    "lien": "/pages/cookie_jung_kook.html"
+    "lien": "pages/cookie_jung_kook.html"
   },
   {
     "id": "schwarzwalder",
@@ -772,7 +772,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/schwarzwalder.html"
+    "lien": "pages/schwarzwalder.html"
   },
   {
     "id": "cookie-bonbon-plongeur",
@@ -781,7 +781,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_bonbon_plongeur.html"
+    "lien": "pages/cookie_bonbon_plongeur.html"
   },
   {
     "id": "cookie-perle-noire",
@@ -790,7 +790,7 @@
     "rarete": "rareté/legendaire.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_perle_noire.html"
+    "lien": "pages/cookie_perle_noire.html"
   },
   {
     "id": "cookie-capitaine-caviar",
@@ -799,7 +799,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_capitaine_caviar.html"
+    "lien": "pages/cookie_capitaine_caviar.html"
   },
   {
     "id": "cookie-licorne-a-la-creme",
@@ -808,7 +808,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soin.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_licorne_a_la_creme.html"
+    "lien": "pages/cookie_licorne_a_la_creme.html"
   },
   {
     "id": "cookie-financier",
@@ -817,7 +817,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_lumiere.webp",
-    "lien": "/pages/cookie_financier.html"
+    "lien": "pages/cookie_financier.html"
   },
   {
     "id": "cookie-huitre",
@@ -826,7 +826,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_huitre.html"
+    "lien": "pages/cookie_huitre.html"
   },
   {
     "id": "cookie-choco-croquant",
@@ -835,7 +835,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_choco_croquant.html"
+    "lien": "pages/cookie_choco_croquant.html"
   },
   {
     "id": "cookie-baie-sauvage",
@@ -844,7 +844,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_baie_sauvage.html"
+    "lien": "pages/cookie_baie_sauvage.html"
   },
   {
     "id": "cookie-creme-fraiche",
@@ -853,7 +853,7 @@
     "rarete": "rareté/super_epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_lumiere.webp",
-    "lien": "/pages/cookie_creme_fraiche.html"
+    "lien": "pages/cookie_creme_fraiche.html"
   },
   {
     "id": "cookie-fleur-de-cerisier",
@@ -862,7 +862,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_fleur_de_cerisier.html"
+    "lien": "pages/cookie_fleur_de_cerisier.html"
   },
   {
     "id": "cookie-vergeoise-brune",
@@ -871,7 +871,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_vergeoise_brune.html"
+    "lien": "pages/cookie_vergeoise_brune.html"
   },
   {
     "id": "cookie-cacao-noir",
@@ -880,7 +880,7 @@
     "rarete": "rareté/antique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_cacao_noir.html"
+    "lien": "pages/cookie_cacao_noir.html"
   },
   {
     "id": "cookie-affogato",
@@ -889,7 +889,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_affogato.html"
+    "lien": "pages/cookie_affogato.html"
   },
   {
     "id": "cookie-chevalier-ceylan",
@@ -898,7 +898,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_chevalier_ceylan.html"
+    "lien": "pages/cookie_chevalier_ceylan.html"
   },
   {
     "id": "cookie-eclair",
@@ -907,7 +907,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_eclair.html"
+    "lien": "pages/cookie_eclair.html"
   },
   {
     "id": "cookie-cacao",
@@ -916,7 +916,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "",
-    "lien": "/pages/cookie_cacao.html"
+    "lien": "pages/cookie_cacao.html"
   },
   {
     "id": "cookie-reine-de-givre",
@@ -925,7 +925,7 @@
     "rarete": "rareté/legendaire.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_glace.webp",
-    "lien": "/pages/cookie_reine_de_givre.html"
+    "lien": "pages/cookie_reine_de_givre.html"
   },
   {
     "id": "cookie-coton",
@@ -934,7 +934,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_coton.html"
+    "lien": "pages/cookie_coton.html"
   },
   {
     "id": "cookie-tarte-à-la-citrouille",
@@ -943,7 +943,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_tarte_à_la_citrouille.html"
+    "lien": "pages/cookie_tarte_à_la_citrouille.html"
   },
   {
     "id": "cookie-bonbon-tourbillon",
@@ -952,7 +952,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_bonbon_tourbillon.html"
+    "lien": "pages/cookie_bonbon_tourbillon.html"
   },
   {
     "id": "cookie-mala",
@@ -961,7 +961,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_mala.html"
+    "lien": "pages/cookie_mala.html"
   },
   {
     "id": "cookie-tails",
@@ -970,7 +970,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_tails.html"
+    "lien": "pages/cookie_tails.html"
   },
   {
     "id": "cookie-sonic",
@@ -979,7 +979,7 @@
     "rarete": "rareté/special.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_sonic.html"
+    "lien": "pages/cookie_sonic.html"
   },
   {
     "id": "cookie-lapin-de-la-lune",
@@ -988,7 +988,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "",
-    "lien": "/pages/cookie_lapin_de_la_lune.html"
+    "lien": "pages/cookie_lapin_de_la_lune.html"
   },
   {
     "id": "cookie-framboise",
@@ -997,7 +997,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_framboise.html"
+    "lien": "pages/cookie_framboise.html"
   },
   {
     "id": "cookie-baie-de-houx",
@@ -1006,7 +1006,7 @@
     "rarete": "rareté/antique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_baie_de_houx.html"
+    "lien": "pages/cookie_baie_de_houx.html"
   },
   {
     "id": "cookie-parfait",
@@ -1015,7 +1015,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_parfait.html"
+    "lien": "pages/cookie_parfait.html"
   },
   {
     "id": "cookie-requin-sorbet",
@@ -1024,7 +1024,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_requin_sorbet.html"
+    "lien": "pages/cookie_requin_sorbet.html"
   },
   {
     "id": "cookie-encre-de-seiche",
@@ -1033,7 +1033,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_encre_de_seiche.html"
+    "lien": "pages/cookie_encre_de_seiche.html"
   },
   {
     "id": "cookie-lilas",
@@ -1042,7 +1042,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_lilas.html"
+    "lien": "pages/cookie_lilas.html"
   },
   {
     "id": "cookie-fée-des-mers",
@@ -1051,7 +1051,7 @@
     "rarete": "rareté/legendaire.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_fee_des_mers.html"
+    "lien": "pages/cookie_fee_des_mers.html"
   },
   {
     "id": "cookie-mangue",
@@ -1060,7 +1060,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_mangue.html"
+    "lien": "pages/cookie_mangue.html"
   },
   {
     "id": "cookie-diablotin",
@@ -1069,7 +1069,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_diablotin.html"
+    "lien": "pages/cookie_diablotin.html"
   },
   {
     "id": "cookie-red-velvet",
@@ -1078,7 +1078,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_red_velvet.html"
+    "lien": "pages/cookie_red_velvet.html"
   },
   {
     "id": "cookie-patisserie",
@@ -1087,7 +1087,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_vent.webp",
-    "lien": "/pages/cookie_patisserie.html"
+    "lien": "pages/cookie_patisserie.html"
   },
   {
     "id": "cookie-figue",
@@ -1096,7 +1096,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_figue.html"
+    "lien": "pages/cookie_figue.html"
   },
   {
     "id": "cookie-crepe-a-la-fraise",
@@ -1105,7 +1105,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "",
-    "lien": "/pages/cookie_crepe_à_la_fraise.html"
+    "lien": "pages/cookie_crepe_à_la_fraise.html"
   },
   {
     "id": "cookie-raisin-sec",
@@ -1114,7 +1114,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_raisin_sec.html"
+    "lien": "pages/cookie_raisin_sec.html"
   },
   {
     "id": "cookie-vanille-pure",
@@ -1123,7 +1123,7 @@
     "rarete": "rareté/antique.webp",
     "role": "classe/soin.webp",
     "element": "éléments/element_lumiere.webp",
-    "lien": "/pages/cookie_vanille_pure.html"
+    "lien": "pages/cookie_vanille_pure.html"
   },
   {
     "id": "cookie-amande",
@@ -1132,7 +1132,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_amande.html"
+    "lien": "pages/cookie_amande.html"
   },
   {
     "id": "cookie-chouquette",
@@ -1141,7 +1141,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_lumiere.webp",
-    "lien": "/pages/cookie_chouquette.html"
+    "lien": "pages/cookie_chouquette.html"
   },
   {
     "id": "cookie-latte",
@@ -1150,7 +1150,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_latte.html"
+    "lien": "pages/cookie_latte.html"
   },
   {
     "id": "cookie-kumiho",
@@ -1159,7 +1159,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_vent.webp",
-    "lien": "/pages/cookie_kumiho.html"
+    "lien": "pages/cookie_kumiho.html"
   },
   {
     "id": "cookie-loup-garou",
@@ -1168,7 +1168,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_loup_garou.html"
+    "lien": "pages/cookie_loup_garou.html"
   },
   {
     "id": "cookie-vampire",
@@ -1177,7 +1177,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_vampire.html"
+    "lien": "pages/cookie_vampire.html"
   },
   {
     "id": "cookie-lys-tigre",
@@ -1186,7 +1186,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "",
-    "lien": "/pages/cookie_lys_tigre.html"
+    "lien": "pages/cookie_lys_tigre.html"
   },
   {
     "id": "cookie-petillant",
@@ -1195,7 +1195,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_petillant.html"
+    "lien": "pages/cookie_petillant.html"
   },
   {
     "id": "cookie-sucre-glace",
@@ -1204,7 +1204,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_glace.webp",
-    "lien": "/pages/cookie_sucre_glace.html"
+    "lien": "pages/cookie_sucre_glace.html"
   },
   {
     "id": "cookie-seigle",
@@ -1213,7 +1213,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/tir.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_seigle.html"
+    "lien": "pages/cookie_seigle.html"
   },
   {
     "id": "cookie-patate-douce",
@@ -1222,7 +1222,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "",
-    "lien": "/pages/cookie_patate_douce.html"
+    "lien": "pages/cookie_patate_douce.html"
   },
   {
     "id": "cookie-grenade",
@@ -1231,7 +1231,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_grenade.html"
+    "lien": "pages/cookie_grenade.html"
   },
   {
     "id": "cookie-champignon-veneneux",
@@ -1240,7 +1240,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_champignon_veneneux.html"
+    "lien": "pages/cookie_champignon_veneneux.html"
   },
   {
     "id": "cookie-choco-menthe",
@@ -1249,7 +1249,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_vent.webp",
-    "lien": "/pages/cookie_choco_menthe.html"
+    "lien": "pages/cookie_choco_menthe.html"
   },
   {
     "id": "cookie-lait",
@@ -1258,7 +1258,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "",
-    "lien": "/pages/cookie_lait.html"
+    "lien": "pages/cookie_lait.html"
   },
   {
     "id": "cookie-madeleine",
@@ -1267,7 +1267,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_lumiere.webp",
-    "lien": "/pages/cookie_madeleine.html"
+    "lien": "pages/cookie_madeleine.html"
   },
   {
     "id": "cookie-reglisse",
@@ -1276,7 +1276,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": ["éléments/element_tenebres.webp", "éléments/element_poison.webp"],
-    "lien": "/pages/cookie_reglisse.html"
+    "lien": "pages/cookie_reglisse.html"
   },
   {
     "id": "cookie-espresso",
@@ -1285,7 +1285,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_terre.webp",
-    "lien": "/pages/cookie_espresso.html"
+    "lien": "pages/cookie_espresso.html"
   },
   {
     "id": "cookie-choco-noir",
@@ -1294,7 +1294,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_tenebres.webp",
-    "lien": "/pages/cookie_choco_noir.html"
+    "lien": "pages/cookie_choco_noir.html"
   },
   {
     "id": "cookie-jardinier",
@@ -1303,7 +1303,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_jardinier.html"
+    "lien": "pages/cookie_jardinier.html"
   },
   {
     "id": "cookie-boule-de-gomme",
@@ -1312,7 +1312,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/explosion.webp",
     "element": "",
-    "lien": "/pages/cookie_boule_de_gomme.html"
+    "lien": "pages/cookie_boule_de_gomme.html"
   },
   {
     "id": "cookie-princesse",
@@ -1321,7 +1321,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/assaut.webp",
     "element": "",
-    "lien": "/pages/cookie_princesse.html"
+    "lien": "pages/cookie_princesse.html"
   },
   {
     "id": "cookie-pancake",
@@ -1330,7 +1330,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_pancake.html"
+    "lien": "pages/cookie_pancake.html"
   },
   {
     "id": "cookie-oignon",
@@ -1339,7 +1339,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_oignon.html"
+    "lien": "pages/cookie_oignon.html"
   },
   {
     "id": "cookie-chevalier",
@@ -1348,7 +1348,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_chevalier.html"
+    "lien": "pages/cookie_chevalier.html"
   },
   {
     "id": "cookie-crème-patissière-iii",
@@ -1357,7 +1357,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_crème_patissière_iii.html"
+    "lien": "pages/cookie_crème_patissière_iii.html"
   },
   {
     "id": "cookie-trèfle",
@@ -1366,7 +1366,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_trèfle.html"
+    "lien": "pages/cookie_trèfle.html"
   },
   {
     "id": "cookie-piment",
@@ -1375,7 +1375,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/embuscade.webp",
     "element": "éléments/element_feu.webp",
-    "lien": "/pages/cookie_piment.html"
+    "lien": "pages/cookie_piment.html"
   },
   {
     "id": "cookie-cerise",
@@ -1384,7 +1384,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/explosion.webp",
     "element": "",
-    "lien": "/pages/cookie_cerise.html"
+    "lien": "pages/cookie_cerise.html"
   },
   {
     "id": "cookie-carotte",
@@ -1393,7 +1393,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "/pages/cookie_carotte.html"
+    "lien": "pages/cookie_carotte.html"
   },
   {
     "id": "cookie-mûre",
@@ -1402,7 +1402,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/magie.webp",
     "element": "",
-    "lien": "/pages/cookie_mure.html"
+    "lien": "pages/cookie_mure.html"
   },
   {
     "id": "cookie-betterave",
@@ -1411,7 +1411,7 @@
     "rarete": "rareté/normal.webp",
     "role": "classe/tir.webp",
     "element": "",
-    "lien": "/pages/cookie_betterave.html"
+    "lien": "pages/cookie_betterave.html"
   },
   {
     "id": "cookie-avocat",
@@ -1420,7 +1420,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/defense.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_avocat.html"
+    "lien": "pages/cookie_avocat.html"
   },
   {
     "id": "cookie-alchimiste",
@@ -1429,7 +1429,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_poison.webp",
-    "lien": "/pages/cookie_alchimiste.html"
+    "lien": "pages/cookie_alchimiste.html"
   },
   {
     "id": "cookie-aventurier",
@@ -1438,7 +1438,7 @@
     "rarete": "rareté/rare.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_aventurier.html"
+    "lien": "pages/cookie_aventurier.html"
   },
   {
     "id": "cookie-costaud",
@@ -1447,7 +1447,7 @@
     "rarete": "rareté/normal.webp",
     "role": "classe/assaut.webp",
     "element": "éléments/element_acier.webp",
-    "lien": "/pages/cookie_costaud.html"
+    "lien": "pages/cookie_costaud.html"
   },
   {
     "id": "cookie-ange",
@@ -1456,7 +1456,7 @@
     "rarete": "rareté/normal.webp",
     "role": "classe/soin.webp",
     "element": "",
-    "lien": "/pages/cookie_ange.html"
+    "lien": "pages/cookie_ange.html"
   },
   {
     "id": "cookie-ninja",
@@ -1465,7 +1465,7 @@
     "rarete": "rareté/normal.webp",
     "role": "classe/embuscade.webp",
     "element": "",
-    "lien": "/pages/cookie_ninja.html"
+    "lien": "pages/cookie_ninja.html"
   },
   {
     "id": "cookie-sorcier",
@@ -1474,7 +1474,7 @@
     "rarete": "rareté/normal.webp",
     "role": "classe/magie.webp",
     "element": "éléments/element_electricite.webp",
-    "lien": "/pages/cookie_sorcier.html"
+    "lien": "pages/cookie_sorcier.html"
   },
   {
     "id": "cookie-fraise",
@@ -1483,7 +1483,7 @@
     "rarete": "rareté/normal.webp",
     "role": "classe/defense.webp",
     "element": "",
-    "lien": "/pages/cookie_fraise.html"
+    "lien": "pages/cookie_fraise.html"
   },
   {
     "id": "cookie-temeraire",
@@ -1492,6 +1492,6 @@
     "rarete": "rareté/normal.webp",
     "role": "classe/assaut.webp",
     "element": "",
-    "lien": "/pages/cookie_temeraire.html"
+    "lien": "pages/cookie_temeraire.html"
   }
 ]
