@@ -1,4 +1,4 @@
-fetch('./includes/header_index.html')
+fetch("./includes/header_index.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById('header-placeholder').innerHTML = data;
