@@ -6,7 +6,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/soutien.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_eau_gazeuse.html"
+    "lien": "pages/cookie_eau_gazeuse.html"
   },
   {
     "id": "cookie-menthol",
@@ -15,7 +15,7 @@
     "rarete": "rareté/epique.webp",
     "role": "classe/explosion.webp",
     "element": "éléments/element_eau.webp",
-    "lien": "/pages/cookie_menthol.html"
+    "lien": "pages/cookie_menthol.html"
   },
   {
     "id": "farinel",
