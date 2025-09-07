@@ -768,7 +768,7 @@
   {
     "id": "schwarzwalder",
     "nom": "Schwarzwälder",
-    "image": "cookies/schwarzwälder/schwarzwalder_tete.webp",
+    "image": "cookies/schwarzwalder/schwarzwalder_tete.webp",
     "rarete": "rarete/epique.webp",
     "role": "classe/assaut.webp",
     "element": "elements_crk/element_acier.webp",
