@@ -24,7 +24,7 @@ window.addEventListener('click', (e) => {
 });
 
 // Nouvelle version : utilise data-id pour la sauvegarde
-const elements = document.querySelectorAll('.bonbon-cycle, .costume-toggle, .ascension-cycle, .biscuit-cycle, .tartelette-cycle, .promotion-cycle');
+const elements = document.querySelectorAll('.bonbon-cycle, .garniture-cycle, .costume-toggle, .ascension-cycle, .biscuit-cycle, .tartelette-cycle, .promotion-cycle');
 
 elements.forEach(img => {
   const images = JSON.parse(img.dataset.images);
@@ -53,36 +53,4 @@ elements.forEach(img => {
 // Bouton de sauvegarde (effet visuel uniquement)
 document.getElementById('btn-save').addEventListener('click', () => {
   alert('Modifications sauvegardées 🍪');
-});
-
-const garnitures = document.querySelectorAll('.garniture-cycle');
-
-// Charger les états sauvegardés et gérer les clics
-garnitures.forEach(img => {
-  const id = img.dataset.id;
-  const savedStep = localStorage.getItem(`etat-${id}`);
-
-  const images = JSON.parse(img.dataset.images);
-  const parent = img.closest('.garniture-item');
-  const countBadge = parent.querySelector('.garniture-count');
-
-  if (savedStep !== null) {
-    img.dataset.step = savedStep;
-    img.src = images[savedStep];
-    countBadge.textContent = savedStep;
-  } else {
-    img.dataset.step = 0;
-  }
-
-  img.addEventListener('click', () => {
-    let currentStep = parseInt(img.dataset.step);
-    currentStep = (currentStep + 1) % images.length;
-
-    img.src = images[currentStep];
-    img.dataset.step = currentStep;
-    countBadge.textContent = currentStep;
-
-    // Sauvegarde de l'état dans localStorage
-    localStorage.setItem(`etat-${id}`, currentStep);
-  });
 });

@@ -153,21 +153,15 @@ body {
 
 .toppings {
   position: absolute;
-  top: 320px;
-  right: 136px;
+  top: 310px;
+  right: 110px;
   display: flex;
-  gap: 70px;
+  gap: 20px;
 }
 
-.garniture-item {
-  position: relative; /* <-- important pour que le count soit relatif à cet élément */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* Ajout pour gestion des garnitures cycliques */
 .garniture-cycle {
-  width: 60px;
+  width: 110px;
   height: auto;
   cursor: pointer;
   transition: transform 0.2s ease;
@@ -175,18 +169,6 @@ body {
 
 .garniture-cycle:hover {
   transform: scale(1.1);
-}
-
-.garniture-count {
-  position: absolute;
-  top: 68px;
-  left: 25%;
-  transform: translateX(-50%);
-  font-size: 25px;
-  font-family: 'CookieRun-Bold', sans-serif;
-  color: white;
-  -webkit-text-stroke: 1px black;
-  text-shadow: 1px 1px 2px black;
 }
 
 .tartelettes {
