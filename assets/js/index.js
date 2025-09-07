@@ -1,10 +1,10 @@
-fetch("./includes/header_index.html")
+fetch("includes/header_index.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById('header-placeholder').innerHTML = data;
     });
 
-fetch("./assets/data/maj.json")
+fetch("assets/data/maj.json")
   .then(response => response.json())
   .then(data => {
     // On trie les cookies par date décroissante
@@ -16,7 +16,7 @@ fetch("./assets/data/maj.json")
       link.href = cookie.link;
 
       const img = document.createElement("img");
-      img.src = "./assets/images/" + cookie.image;
+      img.src = "assets/images/" + cookie.image;
       img.alt = cookie.name;
       img.className = "carte-cookie";
 
