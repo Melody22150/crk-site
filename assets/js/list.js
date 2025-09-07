@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     liste.forEach(cookie => {
       const carte = document.createElement("a");
-      carte.href = cookie.lien;
+      carte.href = "pages/" + cookie.lien;
       carte.className = "carte-cookie";
 
       // Opacité si obtenu
