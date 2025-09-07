@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: 'CookieRun-Bold';
+    src: url('../fonts/CookieRun\ Bold.ttf');
+}
+
+body.accueil {
+  margin: 0;
+  font-family: 'CookieRun-Bold';
+  background-color: #E3D3C7;
+  color: #865C43;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+}
+
+.logo {
+  width: 450px;
+  height: auto;
+}
+
+.patch-container {
+  position: relative;
+  width: 800px; /* Agrandi pour correspondre à ta maquette */
+  max-width: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.patch-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50px;
+}
+
+
+.main {
+  padding: 40px 50px;
+}
+
+.derniers-ajouts h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.cartes-cookies {
+  display: flex;
+  gap: 30px;
+  justify-content: left;
+  margin-bottom: 50px;
+}
+
+.carte-cookie {
+  width: 196px;
+  height: 196px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.carte-cookie:hover {
+  transform: scale(1.05);
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #865C43;
+  color: #FFF0DC;
+  font-size: 50px;
+  padding: 15px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 900;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+  background-color: #A6795B;
+}
+
