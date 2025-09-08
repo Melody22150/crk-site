@@ -1,0 +1,34 @@
+/* --- Base "safe" sans rien casser --- */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+/* Images vraiment fluides partout */
+img { max-width: 100%; height: auto; display: block; }
+
+/* Contenir / centrer le contenu de TOUTES les pages */
+main {
+  max-width: 1460px;      /* ta largeur de travail “fixe” */
+  margin: 0 auto;
+  padding-inline: 16px;   /* petits bords pour respirer */
+}
+
+/* Header courant (espace + alignement) – n’écrase pas tes styles existants */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-block: 12px;
+}
+
+/* Grille des cartes (si ce n’est pas déjà défini dans tes CSS) */
+.grille-cookies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+/* Un petit palier grands écrans pour ne PAS étirer à l’infini */
+@media (min-width: 1536px) {
+  main { max-width: 1320px; }
+}
