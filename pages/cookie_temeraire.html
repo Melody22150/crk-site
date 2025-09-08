@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Téméraire</title>
     <link rel="stylesheet" href="../assets/css/base.css">
-    <link href="../assets/css/cookie_temeraire.css" rel="stylesheet"/>
+    <link id="css-temeraire" href="../assets/css/cookie_temeraire.css" rel="stylesheet"/>
  </head>
 
 <body>
@@ -207,7 +207,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_temeraire.js"></script>
+ <script id="js-temeraire" src="../assets/js/cookie_temeraire.js"></script>
+
+ <script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-madeleine");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-madeleine");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
