@@ -37,8 +37,6 @@
     width: 412px;
     height: 444px;
     position: absolute;
-    top: 150px;
-    left: 320px;
   }
 
   /* Badges : gardent leurs positions absolues */
@@ -91,7 +89,7 @@
     bottom: 160px;  /* évite qu'ils partent trop bas */
   }
 
-  .btn-cookie-precedent { left: 80px; }
+
   .btn-cookie-suivant   { right: 80px; }
   .btn-costume          { left: 80px; }
 }

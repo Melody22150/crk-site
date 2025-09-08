@@ -88,8 +88,8 @@ body {
   height: 444px;
   object-fit: contain;
   position: absolute;
-  top: 350px;
-  left: 350px;
+  top: 100px;
+  left: 280px;
 }
 
 .badges {
@@ -194,7 +194,7 @@ body {
 .biscuits {
   position: absolute;
   top: 550px;
-  right: 360px;
+  right: 100px;
   display: flex;
   gap: 20px;
 }

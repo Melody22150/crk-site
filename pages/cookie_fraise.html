@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Fraise</title>
-    <link href="../assets/css/cookie_fraise.css" rel="stylesheet"/>
+    <link id="css-fraise" href="../assets/css/cookie_fraise.css" rel="stylesheet"/>
+    <link id="css-fraise" rel="stylesheet" href="../assets/css/responsive_1300_cookie.css">
  </head>
 
 <body>
@@ -154,7 +155,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="defense-fraise-nb" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-defense-fraise-1" data-images='[
+          "../assets/images/biscuits/defense_nb.webp",
+          "../assets/images/biscuits/defense.webp"
+        ]' data-step="0" src="../assets/images/biscuits/defense_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-defense-fraise-2" data-images='[
+          "../assets/images/biscuits/defense_nb.webp",
+          "../assets/images/biscuits/defense.webp"
+        ]' data-step="0" src="../assets/images/biscuits/defense_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-defense-fraise-3" data-images='[
           "../assets/images/biscuits/defense_nb.webp",
           "../assets/images/biscuits/defense.webp"
         ]' data-step="0" src="../assets/images/biscuits/defense_nb.webp"/>
@@ -204,7 +215,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_fraise.js"></script>
+ <script id="js-fraise" src="../assets/js/cookie_fraise.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-fraise");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-fraise");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
