@@ -22,24 +22,6 @@ body {
   height: 140px;
 }
 
-.patch-info {
-  position: absolute;
-  left: 180px;
-  top: 10px;
-  text-align: center;
-}
-
-.patch-info img {
-  height: 20px;
-}
-
-.patch-text {
-  font-size: 10px;
-  font-weight: 900;
-  color: #865C43;
-  margin-top: 2px;
-}
-
 .maj-image {
   height: 140px;
   border-radius: 50px;

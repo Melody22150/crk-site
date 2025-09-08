@@ -5,8 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Téméraire</title>
-    <link rel="stylesheet" href="../assets/css/base.css">
     <link id="css-temeraire" href="../assets/css/cookie_temeraire.css" rel="stylesheet"/>
+    <link id="css-temeraire" rel="stylesheet" href="../assets/css/responsive_2000_cookie.css">
  </head>
 
 <body>
@@ -212,10 +212,10 @@
  <script>
   const version = new Date().getTime(); // timestamp unique
 
-  const css = document.getElementById("css-madeleine");
+  const css = document.getElementById("css-temeraire");
   css.href = css.href + "?v=" + version;
 
-  const js = document.getElementById("js-madeleine");
+  const js = document.getElementById("js-temeraire");
   js.src = js.src + "?v=" + version;
 </script>
 
