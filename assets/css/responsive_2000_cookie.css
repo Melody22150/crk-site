@@ -1,5 +1,5 @@
 /* --- Responsive spécial écrans XXL (≥2000px) --- */
-@media (min-width: 2000px) {
+@media (min-width: 1700px) {
 
       /* 1) Cadre de page : on “fige” une largeur de travail et on centre */
   .header,

@@ -1,5 +1,5 @@
 /* S'applique uniquement sur écrans ≥2000px */
-@media (min-width: 2000px) {
+@media (min-width: 1700px) {
 
   /* Header centré et largeur max */
   .header {
