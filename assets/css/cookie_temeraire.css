@@ -70,8 +70,8 @@ body {
   height: 444px;
   object-fit: contain;
   position: absolute;
-  top: 350px;
-  left: 350px;
+  top: 150px;
+  left: 320px;
 }
 
 .badges {
