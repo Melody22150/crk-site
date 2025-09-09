@@ -206,7 +206,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_ange.js"></script>
+ <script id="js-ange" src="../assets/js/cookie_ange.js"></script>
+
+ <script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-ange");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-ange");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
