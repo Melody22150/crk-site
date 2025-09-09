@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Aventurier</title>
-    <link href="../assets/css/cookie_aventurier.css" rel="stylesheet"/>
+    <link id="css-aventurier" href="../assets/css/cookie_aventurier.css" rel="stylesheet">
+    <link id="css-aventurier" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -134,7 +135,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="embuscade-aventurier" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-embuscade-aventurier-1" data-images='[
+          "../assets/images/biscuits/embuscade_nb.webp",
+          "../assets/images/biscuits/embuscade.webp"
+        ]' data-step="0" src="../assets/images/biscuits/embuscade_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-embuscade-aventurier-2" data-images='[
+          "../assets/images/biscuits/embuscade_nb.webp",
+          "../assets/images/biscuits/embuscade.webp"
+        ]' data-step="0" src="../assets/images/biscuits/embuscade_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-embuscade-aventurier-3" data-images='[
           "../assets/images/biscuits/embuscade_nb.webp",
           "../assets/images/biscuits/embuscade.webp"
         ]' data-step="0" src="../assets/images/biscuits/embuscade_nb.webp"/>
@@ -184,7 +195,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_aventurier.js"></script>
+ <script id="js-aventurier" src="../assets/js/cookie_aventurier.js"></script>
+
+ <script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-aventurier");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-aventurier");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
