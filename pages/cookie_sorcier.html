@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Sorcier</title>
-    <link href="../assets/css/cookie_sorcier.css" rel="stylesheet"/>
+    <link id="css-sorcier" href="../assets/css/cookie_sorcier.css" rel="stylesheet">
+    <link id="css-sorcier" rel="stylesheet" href="../assets/css/responsive_1300_cookie.css">
  </head>
 
 <body>
@@ -144,7 +145,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="magie-electricite-tenebres-sorcier-nb" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-electricite-sorcier-1" data-images='[
+          "../assets/images/biscuits/magie_electricite_tenebres_nb.webp",
+          "../assets/images/biscuits/magie_electricite_tenebres.webp"
+        ]' data-step="0" src="../assets/images/biscuits/magie_electricite_tenebres_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-electricite-sorcier-2" data-images='[
+          "../assets/images/biscuits/magie_electricite_tenebres_nb.webp",
+          "../assets/images/biscuits/magie_electricite_tenebres.webp"
+        ]' data-step="0" src="../assets/images/biscuits/magie_electricite_tenebres_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-electricite-sorcier-3" data-images='[
           "../assets/images/biscuits/magie_electricite_tenebres_nb.webp",
           "../assets/images/biscuits/magie_electricite_tenebres.webp"
         ]' data-step="0" src="../assets/images/biscuits/magie_electricite_tenebres_nb.webp"/>
@@ -194,7 +205,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_sorcier.js"></script>
+ <script id="js-sorcier" src="../assets/js/cookie_sorcier.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-sorcier");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-sorcier");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
