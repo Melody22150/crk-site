@@ -1362,11 +1362,11 @@
   {
     "id": "cookie-trèfle",
     "nom": "Cookie Trèfle",
-    "image": "cookies/cookie_trèfle/cookie_trefle_tete.webp",
+    "image": "cookies/cookie_trefle/cookie_trefle_tete.webp",
     "rarete": "rarete/rare.webp",
     "role": "classe/soutien.webp",
     "element": "",
-    "lien": "cookie_trèfle.html"
+    "lien": "cookie_trefle.html"
   },
   {
     "id": "cookie-piment",
