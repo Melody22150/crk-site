@@ -1488,7 +1488,7 @@
   {
     "id": "cookie-temeraire",
     "nom": "Cookie Téméraire",
-    "image": "cookies/cookie_téméraire/gingerbrave_head.webp",
+    "image": "cookies/cookie_temeraire/gingerbrave_head.webp",
     "rarete": "rarete/normal.webp",
     "role": "classe/assaut.webp",
     "element": "",
