@@ -1398,7 +1398,7 @@
   {
     "id": "cookie-mûre",
     "nom": "Cookie Mûre",
-    "image": "cookies/cookie_mûre/cookie_mure_tete.webp",
+    "image": "cookies/cookie_mure/cookie_mure_tete.webp",
     "rarete": "rarete/rare.webp",
     "role": "classe/magie.webp",
     "element": "",
