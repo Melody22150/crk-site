@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Chevalier</title>
-    <link href="../assets/css/cookie_chevalier.css" rel="stylesheet"/>
+    <link id="css-chevalier" href="../assets/css/cookie_chevalier.css" rel="stylesheet">
+    <link id="css-chevalier" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -134,7 +135,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="defense-acier-chevalier" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-defense-acier-chevalier-1" data-images='[
+          "../assets/images/biscuits/defense_acier_glace_nb.webp",
+          "../assets/images/biscuits/defense_acier_glace.webp"
+        ]' data-step="0" src="../assets/images/biscuits/defense_acier_glace_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-defense-acier-chevalier-2" data-images='[
+          "../assets/images/biscuits/defense_acier_glace_nb.webp",
+          "../assets/images/biscuits/defense_acier_glace.webp"
+        ]' data-step="0" src="../assets/images/biscuits/defense_acier_glace_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-defense-acier-chevalier-3" data-images='[
           "../assets/images/biscuits/defense_acier_glace_nb.webp",
           "../assets/images/biscuits/defense_acier_glace.webp"
         ]' data-step="0" src="../assets/images/biscuits/defense_acier_glace_nb.webp"/>
@@ -184,7 +195,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_chevalier.js"></script>
+ <script id="js-chevalier" src="../assets/js/cookie_chevalier.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-chevalier");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-chevalier");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
