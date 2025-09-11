@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Choco Noir</title>
-    <link href="../assets/css/cookie_choco_noir.css" rel="stylesheet"/>
+    <link id="css-choco-noir" href="../assets/css/cookie_choco_noir.css" rel="stylesheet">
+    <link id="css-choco-noir" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-choco-noir-prince-du-royaume-perdu" data-images='[
       "../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_prince_du_royaume_perdu_nb.webp",
       "../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_prince_du_royaume_perdu.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_prince_du_royaume_perdu_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_prince_du_royaume_perdu.webp"
+    data-step="0" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_prince_du_royaume_perdu_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -42,7 +45,9 @@
     <img alt="Costume 3" class="costume-toggle" data-id="cookie-choco-noir-joyeuses-fetes" data-images='[
       "../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_joyeuses_fetes_nb.webp",
       "../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_joyeuses_fetes.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_joyeuses_fetes_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_joyeuses_fetes.webp"
+    data-step="0" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_joyeuses_fetes_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/rare_costume.png"/>
   </div>
@@ -53,7 +58,9 @@
     <img alt="Costume 4" class="costume-toggle" data-id="cookie-choco-noir-vetu-de-vieux-souvenirs" data-images='[
       "../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_vetu_de_vieux_souvenirs_nb.webp",
       "../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_vetu_de_vieux_souvenirs.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_vetu_de_vieux_souvenirs_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_vetu_de_vieux_souvenirs.webp"
+    data-step="0" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_costume_vetu_de_vieux_souvenirs_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/special_costume.webp"/>
   </div>
@@ -70,7 +77,7 @@
    <h1 class="nom-cookie">Cookie Choco Noir</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_choco_noir/cookie_choco_noir_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -156,7 +163,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="assaut-tenebres-choco-noir" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-tenebres-choco-noir-1" data-images='[
+          "../assets/images/biscuits/assaut_electricite_tenebres_nb.webp",
+          "../assets/images/biscuits/assaut_electricite_tenebres.webp"
+        ]' data-step="0" src="../assets/images/biscuits/assaut_electricite_tenebres_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-tenebres-choco-noir-2" data-images='[
+          "../assets/images/biscuits/assaut_electricite_tenebres_nb.webp",
+          "../assets/images/biscuits/assaut_electricite_tenebres.webp"
+        ]' data-step="0" src="../assets/images/biscuits/assaut_electricite_tenebres_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-tenebres-choco-noir-3" data-images='[
           "../assets/images/biscuits/assaut_electricite_tenebres_nb.webp",
           "../assets/images/biscuits/assaut_electricite_tenebres.webp"
         ]' data-step="0" src="../assets/images/biscuits/assaut_electricite_tenebres_nb.webp"/>
@@ -215,7 +232,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_choco_noir.js"></script>
+ <script id="js-choco-noir" src="../assets/js/cookie_choco_noir.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-choco-noir");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-choco-noir");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
