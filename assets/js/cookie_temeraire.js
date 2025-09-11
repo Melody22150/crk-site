@@ -57,27 +57,20 @@ document.getElementById('btn-save').addEventListener('click', () => {
 
 document.addEventListener("DOMContentLoaded", () => {
   const mainIllustration = document.querySelector(".illustration-cookie img");
-  const gallery = document.querySelector(".costume-gallery"); // parent des .costume-item/.costume-toggle
+  const gallery = document.querySelector(".costume-gallery");
   if (!mainIllustration || !gallery) return;
 
-  // --- 1) Génère une clé UNIQUE par cookie (page) ---
-  // Option A: si tu as un identifiant sur la page, prends-le (recommandé)
-  //   <main class="page-cookie" data-cookie-id="cookie-temeraire">
   const cookieIdAttr = document.querySelector(".page-cookie")?.getAttribute("data-cookie-id");
-
-  // Option B: sinon, on fabrique une clé à partir du nom affiché
   const nameKey =
     (document.querySelector(".nom-cookie")?.textContent || location.pathname.split("/").pop() || "cookie")
       .trim().toLowerCase().replace(/\s+/g, "-");
-
   const pageKey = cookieIdAttr || nameKey;
   const LS_KEY = `cookie-illustration:${pageKey}`;
 
-  // --- helpers ---
   const getColorSrc = (el) => {
     try {
       const arr = JSON.parse(el.getAttribute("data-images") || "[]");
-      return arr.length ? arr[arr.length - 1] : null; // dernière = couleur
+      return arr.length ? arr[arr.length - 1] : null;
     } catch { return null; }
   };
 
@@ -92,25 +85,40 @@ document.addEventListener("DOMContentLoaded", () => {
   const applyIllustration = (src) => {
     if (!src) return;
     mainIllustration.src = src;
-    localStorage.setItem(LS_KEY, src); // <-- PERSISTENCE
+    localStorage.setItem(LS_KEY, src);
   };
 
-  // --- 2) Restaurer au chargement si on a déjà sauvé quelque chose ---
-  const saved = localStorage.getItem(LS_KEY);
-  if (saved) {
-    mainIllustration.src = saved;
-  }
+  // Sauvegarde l'image d'origine
+  const originalSrc = mainIllustration.getAttribute("data-original") || mainIllustration.src;
+  mainIllustration.setAttribute("data-original", originalSrc);
 
-  // --- 3) Au clic sur n’importe quel costume : si obtenu (couleur), on remplace + on SAUVE ---
+  // Restaurer l'illustration sauvegardée au chargement
+  const saved = localStorage.getItem(LS_KEY);
+  if (saved) mainIllustration.src = saved;
+
+  // Fonction pour vérifier si TOUS les costumes sont revenus en NB
+  const checkAllReset = () => {
+    const costumes = gallery.querySelectorAll(".costume-toggle");
+    const allReset = Array.from(costumes).every(c => !isObtained(c));
+    if (allReset) {
+      // remet l'illustration d'origine
+      mainIllustration.src = originalSrc;
+      localStorage.removeItem(LS_KEY);
+      console.log("🔄 Tous les costumes sont revenus en NB — illustration d'origine restaurée.");
+    }
+  };
+
+  // Quand on clique sur un costume
   gallery.addEventListener("click", (e) => {
     const img = e.target.closest(".costume-toggle");
     if (!img) return;
-
-    // on attend que ta logique interne ait mis à jour data-step / la vignette
     setTimeout(() => {
       if (isObtained(img)) {
         const newSrc = getTargetIllustration(img);
         applyIllustration(newSrc);
+      } else {
+        // Si on a repassé en NB, vérifier si tous le sont
+        checkAllReset();
       }
     }, 0);
   });
