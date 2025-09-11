@@ -92,6 +92,13 @@ body {
   left: 280px;
 }
 
+.illustration-cookie img[src$="cookie_ange_chef_de_choeur.webp"] {
+  width: 200px;
+  height: auto;
+  left: 400px;
+  top: 350px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
