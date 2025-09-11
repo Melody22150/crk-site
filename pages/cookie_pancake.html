@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Pancake</title>
-    <link href="../assets/css/cookie_pancake.css" rel="stylesheet"/>
+    <link id="css-pancake" href="../assets/css/cookie_pancake.css" rel="stylesheet">
+    <link id="css-pancake" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-pancake-legerement-brule" data-images='[
       "../assets/images/cookies/cookie_pancake/cookie_pancake_costume_legerement_brule_nb.webp",
       "../assets/images/cookies/cookie_pancake/cookie_pancake_costume_legerement_brule.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_pancake/cookie_pancake_costume_legerement_brule_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_pancake/cookie_pancake_legerement_brule.webp"
+    data-step="0" src="../assets/images/cookies/cookie_pancake/cookie_pancake_costume_legerement_brule_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/normal_costume.webp"/>
   </div>
@@ -42,7 +45,9 @@
     <img alt="Costume 3" class="costume-toggle" data-id="cookie-pancake-mascotte-de-choeur" data-images='[
       "../assets/images/cookies/cookie_pancake/cookie_pancake_costume_mascotte de choeur_nb.webp",
       "../assets/images/cookies/cookie_pancake/cookie_pancake_costume_mascotte de choeur.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_pancake/cookie_pancake_costume_mascotte de choeur_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_pancake/cookie_pancake_mascotte de choeur.webp"
+    data-step="0" src="../assets/images/cookies/cookie_pancake/cookie_pancake_costume_mascotte de choeur_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/rare_costume.png"/>
   </div>
@@ -59,7 +64,7 @@
    <h1 class="nom-cookie">Cookie Pancake</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_pancake/cookie_pancake.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_pancake/cookie_pancake_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -145,7 +150,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="embuscade-pancake" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-embuscade-pancake-1" data-images='[
+          "../assets/images/biscuits/embuscade_nb.webp",
+          "../assets/images/biscuits/embuscade.webp"
+        ]' data-step="0" src="../assets/images/biscuits/embuscade_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-embuscade-pancake-2" data-images='[
+          "../assets/images/biscuits/embuscade_nb.webp",
+          "../assets/images/biscuits/embuscade.webp"
+        ]' data-step="0" src="../assets/images/biscuits/embuscade_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-embuscade-pancake-3" data-images='[
           "../assets/images/biscuits/embuscade_nb.webp",
           "../assets/images/biscuits/embuscade.webp"
         ]' data-step="0" src="../assets/images/biscuits/embuscade_nb.webp"/>
@@ -195,7 +210,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_pancake.js"></script>
+ <script id="js-pancake" src="../assets/js/cookie_pancake.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-pancake");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-pancake");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
