@@ -92,6 +92,13 @@ body {
   left: 280px;
 }
 
+.illustration-cookie img[src$="cookie_creme_patissiere_iii_honorable_descendant.webp"] {
+  width: 200px;
+  height: auto;
+  left: 400px;
+  top: 310px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
