@@ -92,6 +92,13 @@ body {
   left: 280px;
 }
 
+.illustration-cookie img[src$="cookie_trefle_costume_vagabond_d_automne.webp"] {
+  width: 412px;
+  height: 444px;
+  left: 280px;
+  top: 120px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
