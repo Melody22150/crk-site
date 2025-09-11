@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Boule de gomme</title>
-    <link href="../assets/css/cookie_boule_de_gomme.css" rel="stylesheet"/>
+    <link id="css-boule-de-gomme" href="../assets/css/cookie_boule_de_gomme.css" rel="stylesheet">
+    <link id="css-boule-de-gomme" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-boule-de-gomme-je-suis-une-oeuvre-d-art" data-images='[
       "../assets/images/cookies/cookie_boule_de_gomme/cookie_boule_de_gomme_costume_je_suis_une_oeuvre_d_art_nb.webp",
       "../assets/images/cookies/cookie_boule_de_gomme/cookie_boule_de_gomme_costume_je_suis_une_oeuvre_d_art.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_boule_de_gomme/cookie_boule_de_gomme_costume_je_suis_une_oeuvre_d_art_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_boule_de_gomme/cookie_boule_de_gomme_je_suis_une_oeuvre_d_art.webp"
+    data-step="0" src="../assets/images/cookies/cookie_boule_de_gomme/cookie_boule_de_gomme_costume_je_suis_une_oeuvre_d_art_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/normal_costume.webp"/>
   </div>
@@ -48,7 +51,7 @@
    <h1 class="nom-cookie">Cookie Boule de gomme</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_boule_de_gomme/cookie_boule_de_gomme.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_boule_de_gomme/cookie_boule_de_gomme_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -134,7 +137,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="explosion-boule-de-gomme" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-explosion-boule-de-gomme-1" data-images='[
+          "../assets/images/biscuits/explosion_nb.webp",
+          "../assets/images/biscuits/explosion.webp"
+        ]' data-step="0" src="../assets/images/biscuits/explosion_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-explosion-boule-de-gomme-2" data-images='[
+          "../assets/images/biscuits/explosion_nb.webp",
+          "../assets/images/biscuits/explosion.webp"
+        ]' data-step="0" src="../assets/images/biscuits/explosion_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-explosion-boule-de-gomme-3" data-images='[
           "../assets/images/biscuits/explosion_nb.webp",
           "../assets/images/biscuits/explosion.webp"
         ]' data-step="0" src="../assets/images/biscuits/explosion_nb.webp"/>
@@ -184,7 +197,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_boule_de_gomme.js"></script>
+ <script id="js-boule-de-gomme" src="../assets/js/cookie_boule_de_gomme.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-boule-de-gomme");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-boule-de-gomme");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
