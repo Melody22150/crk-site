@@ -54,3 +54,66 @@ elements.forEach(img => {
 document.getElementById('btn-save').addEventListener('click', () => {
   alert('Modifications sauvegardées 🍪');
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const mainIllustration = document.querySelector(".illustration-cookie img");
+  const gallery = document.querySelector(".costume-gallery"); // parent des .costume-item/.costume-toggle
+  if (!mainIllustration || !gallery) return;
+
+  // --- 1) Génère une clé UNIQUE par cookie (page) ---
+  // Option A: si tu as un identifiant sur la page, prends-le (recommandé)
+  //   <main class="page-cookie" data-cookie-id="cookie-temeraire">
+  const cookieIdAttr = document.querySelector(".page-cookie")?.getAttribute("data-cookie-id");
+
+  // Option B: sinon, on fabrique une clé à partir du nom affiché
+  const nameKey =
+    (document.querySelector(".nom-cookie")?.textContent || location.pathname.split("/").pop() || "cookie")
+      .trim().toLowerCase().replace(/\s+/g, "-");
+
+  const pageKey = cookieIdAttr || nameKey;
+  const LS_KEY = `cookie-illustration:${pageKey}`;
+
+  // --- helpers ---
+  const getColorSrc = (el) => {
+    try {
+      const arr = JSON.parse(el.getAttribute("data-images") || "[]");
+      return arr.length ? arr[arr.length - 1] : null; // dernière = couleur
+    } catch { return null; }
+  };
+
+  const getTargetIllustration = (el) =>
+    el.getAttribute("data-illustration-replace") || getColorSrc(el);
+
+  const isObtained = (el) => {
+    const step = parseInt(el.getAttribute("data-step") || "0", 10);
+    return step >= 1 || el.classList.contains("obtained");
+  };
+
+  const applyIllustration = (src) => {
+    if (!src) return;
+    mainIllustration.src = src;
+    localStorage.setItem(LS_KEY, src); // <-- PERSISTENCE
+  };
+
+  // --- 2) Restaurer au chargement si on a déjà sauvé quelque chose ---
+  const saved = localStorage.getItem(LS_KEY);
+  if (saved) {
+    mainIllustration.src = saved;
+  }
+
+  // --- 3) Au clic sur n’importe quel costume : si obtenu (couleur), on remplace + on SAUVE ---
+  gallery.addEventListener("click", (e) => {
+    const img = e.target.closest(".costume-toggle");
+    if (!img) return;
+
+    // on attend que ta logique interne ait mis à jour data-step / la vignette
+    setTimeout(() => {
+      if (isObtained(img)) {
+        const newSrc = getTargetIllustration(img);
+        applyIllustration(newSrc);
+      }
+    }, 0);
+  });
+});
+
+
