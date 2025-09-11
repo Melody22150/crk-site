@@ -88,8 +88,15 @@ body {
   height: 444px;
   object-fit: contain;
   position: absolute;
-  top: 350px;
-  left: 350px;
+  top: 110px;
+  left: 280px;
+}
+
+.illustration-cookie img[src$="cookie_princesse_les_joies_de_l_ete.webp"] {
+  width: 200px;
+  height: auto;
+  left: 380px;
+  top: 320px;
 }
 
 .badges {
@@ -193,10 +200,10 @@ body {
 
 .biscuits {
   position: absolute;
-  top: 570px;
-  right: 350px;
+  top: 550px;
+  right: 100px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* Ajout pour gestion des garnitures cycliques */
@@ -213,8 +220,8 @@ body {
 
 .promotion {
   position: absolute;
-  top: 790px;
-  right: 890px;
+  top: 580px;
+  right: 830px;
   display: flex;
 }
 
@@ -232,8 +239,8 @@ body {
 
 .ascension {
   position: absolute;
-  top: 840px;
-  right: 920px;
+  top: 630px;
+  right: 860px;
   display: flex;
 }
 
