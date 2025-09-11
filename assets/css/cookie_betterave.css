@@ -92,6 +92,13 @@ body {
   left: 280px;
 }
 
+.illustration-cookie img[src$="cookie_betterave_chasseuse_occasionnelle.webp"] {
+  width: 412px;
+  height: 444px;
+  left: 320px;
+  top: 120px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
