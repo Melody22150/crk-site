@@ -92,6 +92,13 @@ body {
   left: 290px;
 }
 
+.illustration-cookie img[src$="cookie_sorcier_fete_soigneusement_preparee.webp"] {
+  width: 200px;
+  height: auto;
+  left: 400px;
+  top: 350px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
