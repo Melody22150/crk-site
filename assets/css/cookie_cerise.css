@@ -92,6 +92,20 @@ body {
   left: 240px;
 }
 
+.illustration-cookie img[src$="cookie_cerise_explosion_de_bombe.webp"] {
+  width: 412px;
+  height: 444px;
+  left: 280px;
+  top: 150px;
+}
+
+.illustration-cookie img[src$="cookie_cerise_poches_remplies_de_chance.webp"] {
+  width: 412px;
+  height: 444px;
+  left: 280px;
+  top: 150px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
@@ -196,7 +210,7 @@ body {
   top: 550px;
   right: 100px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* Ajout pour gestion des garnitures cycliques */
