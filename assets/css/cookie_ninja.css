@@ -92,6 +92,13 @@ body {
   left: 250px;
 }
 
+.illustration-cookie img[src$="cookie_ninja_cache_dans_l_ombre.webp"] {
+  width: 200px;
+  height: auto;
+  left: 350px;
+  top: 300px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
