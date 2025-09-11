@@ -92,6 +92,13 @@ body {
   left: 280px;
 }
 
+.illustration-cookie img[src$="cookie_fraise_a_la_gnome.webp"] {
+  width: 200px;
+  height: auto;
+  left: 350px;
+  top: 280px;
+}
+
 .badges {
   position: absolute;
   top: 230px;
