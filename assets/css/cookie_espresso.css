@@ -88,8 +88,29 @@ body {
   height: 444px;
   object-fit: contain;
   position: absolute;
-  top: 340px;
-  left: 350px;
+  top: 170px;
+  left: 280px;
+}
+
+.illustration-cookie img[src$="cookie_espresso_costume_roti_a_200_c.webp"] {
+  width: 412px;
+  height: 444px;
+  left: 280px;
+  top: 120px;
+}
+
+.illustration-cookie img[src$="cookie_espresso_tenue_de_ceremonie_de_gentleman.webp"] {
+  width: 200px;
+  height: auto;
+  left: 400px;
+  top: 320px;
+}
+
+.illustration-cookie img[src$="cookie_espresso_erudit_primevere.webp"] {
+  width: 412px;
+  height: 444px;
+  left: 270px;
+  top: 150px;
 }
 
 .badges {
@@ -193,10 +214,10 @@ body {
 
 .biscuits {
   position: absolute;
-  top: 570px;
-  right: 450px;
+  top: 550px;
+  right: 100px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* Ajout pour gestion des garnitures cycliques */
@@ -213,8 +234,8 @@ body {
 
 .bonbon {
   position: absolute;
-  top: 580px;
-  right: 150px;
+  top: 550px;
+  right: 270px;
   display: flex;
   gap: 20px;
 }
@@ -233,8 +254,8 @@ body {
 
 .promotion {
   position: absolute;
-  top: 790px;
-  right: 890px;
+  top: 580px;
+  right: 820px;
   display: flex;
 }
 
@@ -252,8 +273,8 @@ body {
 
 .ascension {
   position: absolute;
-  top: 840px;
-  right: 920px;
+  top: 630px;
+  right: 850px;
   display: flex;
 }
 

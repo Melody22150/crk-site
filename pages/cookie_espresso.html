@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Espresso</title>
-    <link href="../assets/css/cookie_espresso.css" rel="stylesheet"/>
+    <link id="css-espresso" href="../assets/css/cookie_espresso.css" rel="stylesheet">
+    <link id="css-espresso" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-espresso-roti-a-200-c" data-images='[
       "../assets/images/cookies/cookie_espresso/cookie_espresso_costume_roti_a_200_c_nb.webp",
       "../assets/images/cookies/cookie_espresso/cookie_espresso_costume_roti_a_200_c.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_espresso/cookie_espresso_costume_roti_a_200_c_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_espresso/cookie_espresso_costume_roti_a_200_c.webp"
+    data-step="0" src="../assets/images/cookies/cookie_espresso/cookie_espresso_costume_roti_a_200_c_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -42,7 +45,9 @@
     <img alt="Costume 3" class="costume-toggle" data-id="cookie-espresso-tenue-de-ceremonie-de-gentleman" data-images='[
       "../assets/images/cookies/cookie_espresso/cookie_espresso_costume_tenue_de_ceremonie_de_gentleman_nb.webp",
       "../assets/images/cookies/cookie_espresso/cookie_espresso_costume_tenue_de_ceremonie_de_gentleman.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_espresso/cookie_espresso_costume_tenue_de_ceremonie_de_gentleman_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_espresso/cookie_espresso_tenue_de_ceremonie_de_gentleman.webp"
+    data-step="0" src="../assets/images/cookies/cookie_espresso/cookie_espresso_costume_tenue_de_ceremonie_de_gentleman_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -53,7 +58,9 @@
     <img alt="Costume 4" class="costume-toggle" data-id="cookie-espresso-erudit-primevere" data-images='[
       "../assets/images/cookies/cookie_espresso/cookie_espresso_costume_erudit_primevere_nb.webp",
       "../assets/images/cookies/cookie_espresso/cookie_espresso_costume_erudit_primevere.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_espresso/cookie_espresso_costume_erudit_primevere_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_espresso/cookie_espresso_erudit_primevere.webp"
+    data-step="0" src="../assets/images/cookies/cookie_espresso/cookie_espresso_costume_erudit_primevere_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -70,7 +77,7 @@
    <h1 class="nom-cookie">Cookie Espresso</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_espresso/cookie_espresso.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_espresso/cookie_espresso_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -156,7 +163,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="magie-terre-espresso" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-terre-espresso-1" data-images='[
+          "../assets/images/biscuits/magie_feu_terre_nb.webp",
+          "../assets/images/biscuits/magie_feu_terre.webp"
+        ]' data-step="0" src="../assets/images/biscuits/magie_feu_terre_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-terre-espresso-2" data-images='[
+          "../assets/images/biscuits/magie_feu_terre_nb.webp",
+          "../assets/images/biscuits/magie_feu_terre.webp"
+        ]' data-step="0" src="../assets/images/biscuits/magie_feu_terre_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-terre-espresso-3" data-images='[
           "../assets/images/biscuits/magie_feu_terre_nb.webp",
           "../assets/images/biscuits/magie_feu_terre.webp"
         ]' data-step="0" src="../assets/images/biscuits/magie_feu_terre_nb.webp"/>
@@ -215,7 +232,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_espresso.js"></script>
+ <script id="js-espresso" src="../assets/js/cookie_espresso.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-espresso");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-espresso");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
