@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Grenade</title>
-    <link href="../assets/css/cookie_grenade.css" rel="stylesheet"/>
+    <link id="css-grenade" href="../assets/css/cookie_grenade.css" rel="stylesheet">
+    <link id="css-grenade" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -19,7 +20,7 @@
     <div class="costume-gallery">
     <div class="costume-item">
     <img alt="Costume 1" class="costume-toggle" data-id="cookie-grenade-costume-original" data-images='[
-        "../assets/images/cookies/cookie_champignon_veneneux/cookie_champignon_veneneux_costume_original.webp"
+        "../assets/images/cookies/cookie_grenade/cookie_grenade_costume_original.webp"
         ]' data-step="0" src="../assets/images/cookies/cookie_grenade/cookie_grenade_costume_original.webp"/>
     <div class="costume-icon">
     <img alt="Icône original" src="../assets/images/rarete/original_costume.webp"/>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-grenade-prophetie-reveuse" data-images='[
       "../assets/images/cookies/cookie_grenade/cookie_grenade_costume_prophetie_reveuse_nb.webp",
       "../assets/images/cookies/cookie_grenade/cookie_grenade_costume_prophetie_reveuse.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_grenade/cookie_grenade_costume_prophetie_reveuse_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_grenade/cookie_grenade_prophetie_reveuse.webp"
+    data-step="0" src="../assets/images/cookies/cookie_grenade/cookie_grenade_costume_prophetie_reveuse_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/rare_costume.png"/>
   </div>
@@ -42,7 +45,9 @@
     <img alt="Costume 3" class="costume-toggle" data-id="cookie-grenade-manager-pourpre-glaciale" data-images='[
       "../assets/images/cookies/cookie_grenade/cookie_grenade_costume_manager_pourpre_glaciale_nb.webp",
       "../assets/images/cookies/cookie_grenade/cookie_grenade_costume_manager_pourpre_glaciale.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_grenade/cookie_grenade_costume_manager_pourpre_glaciale_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_grenade/cookie_grenade_manager_pourpre_glaciale.webp"
+    data-step="0" src="../assets/images/cookies/cookie_grenade/cookie_grenade_costume_manager_pourpre_glaciale_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -53,7 +58,9 @@
     <img alt="Costume 4" class="costume-toggle" data-id="cookie-grenade-sorciere-lys-araignee" data-images='[
       "../assets/images/cookies/cookie_grenade/cookie_grenade_costume_sorciere_lys_araignee_nb.webp",
       "../assets/images/cookies/cookie_grenade/cookie_grenade_costume_sorciere_lys_araignee.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_grenade/cookie_grenade_costume_sorciere_lys_araignee_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_grenade/cookie_grenade_sorciere_lys_araignee.webp"
+    data-step="0" src="../assets/images/cookies/cookie_grenade/cookie_grenade_costume_sorciere_lys_araignee_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -70,7 +77,7 @@
    <h1 class="nom-cookie">Cookie Grenade</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_grenade/cookie_grenade.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_grenade/cookie_grenade_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -156,7 +163,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="soutien-grenade" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-soutien-grenade-1" data-images='[
+          "../assets/images/biscuits/soutien_nb.webp",
+          "../assets/images/biscuits/soutien.webp"
+        ]' data-step="0" src="../assets/images/biscuits/soutien_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-soutien-grenade-2" data-images='[
+          "../assets/images/biscuits/soutien_nb.webp",
+          "../assets/images/biscuits/soutien.webp"
+        ]' data-step="0" src="../assets/images/biscuits/soutien_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-soutien-grenade-3" data-images='[
           "../assets/images/biscuits/soutien_nb.webp",
           "../assets/images/biscuits/soutien.webp"
         ]' data-step="0" src="../assets/images/biscuits/soutien_nb.webp"/>
@@ -206,7 +223,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_grenade.js"></script>
+ <script id="js-grenade" src="../assets/js/cookie_grenade.js"></script>
+
+ <script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-grenade");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-grenade");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
