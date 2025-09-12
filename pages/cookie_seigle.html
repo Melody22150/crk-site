@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Seigle</title>
-    <link href="../assets/css/cookie_seigle.css" rel="stylesheet"/>
+    <link id="css-seigle" href="../assets/css/cookie_seigle.css" rel="stylesheet">
+    <link id="css-seigle" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-seigle-flamme-impitoyable" data-images='[
       "../assets/images/cookies/cookie_seigle/cookie_seigle_costume_flamme_impitoyable_nb.webp",
       "../assets/images/cookies/cookie_seigle/cookie_seigle_costume_flamme_impitoyable.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_seigle/cookie_seigle_costume_flamme_impitoyable_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_seigle/cookie_seigle_costume_flamme_impitoyable.webp"
+    data-step="0" src="../assets/images/cookies/cookie_seigle/cookie_seigle_costume_flamme_impitoyable_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -48,7 +51,7 @@
    <h1 class="nom-cookie">Cookie Seigle</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_seigle/cookie_seigle.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_seigle/cookie_seigle_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -134,7 +137,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="assaut-seigle" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-seigle-1" data-images='[
+          "../assets/images/biscuits/tir_feu_terre_nb.webp",
+          "../assets/images/biscuits/tir_feu_terre.webp"
+        ]' data-step="0" src="../assets/images/biscuits/tir_feu_terre_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-seigle-2" data-images='[
+          "../assets/images/biscuits/tir_feu_terre_nb.webp",
+          "../assets/images/biscuits/tir_feu_terre.webp"
+        ]' data-step="0" src="../assets/images/biscuits/tir_feu_terre_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-seigle-3" data-images='[
           "../assets/images/biscuits/tir_feu_terre_nb.webp",
           "../assets/images/biscuits/tir_feu_terre.webp"
         ]' data-step="0" src="../assets/images/biscuits/tir_feu_terre_nb.webp"/>
@@ -193,7 +206,7 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_seigle.js"></script>
+ <script id="js-seigle" src="../assets/js/cookie_seigle.js"></script>
 
 </body>
 </html>

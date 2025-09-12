@@ -88,8 +88,15 @@ body {
   height: 444px;
   object-fit: contain;
   position: absolute;
-  top: 400px;
-  left: 350px;
+  top: 150px;
+  left: 310px;
+}
+
+.illustration-cookie img[src$="cookie_seigle_costume_flamme_impitoyable.webp"] {
+  width: 412px;
+  height: 444px;
+  left: 290px;
+  top: 120px;
 }
 
 .badges {
@@ -193,15 +200,15 @@ body {
 
 .biscuits {
   position: absolute;
-  top: 570px;
-  right: 450px;
+  top: 550px;
+  right: 100px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* Ajout pour gestion des garnitures cycliques */
 .biscuit-cycle {
-  width: 210px;
+  width: 200px;
   height: auto;
   cursor: pointer;
   transition: transform 0.2s ease;
@@ -213,8 +220,8 @@ body {
 
 .bonbon {
   position: absolute;
-  top: 580px;
-  right: 150px;
+  top: 550px;
+  right: 270px;
   display: flex;
   gap: 20px;
 }
@@ -233,8 +240,8 @@ body {
 
 .promotion {
   position: absolute;
-  top: 790px;
-  right: 890px;
+  top: 580px;
+  right: 820px;
   display: flex;
 }
 
@@ -252,8 +259,8 @@ body {
 
 .ascension {
   position: absolute;
-  top: 840px;
-  right: 920px;
+  top: 630px;
+  right: 850px;
   display: flex;
 }
 
