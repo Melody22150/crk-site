@@ -1272,7 +1272,7 @@
   {
     "id": "cookie-reglisse",
     "nom": "Cookie Réglisse",
-    "image": "cookies/cookie_réglisse/cookie_reglisse_tete.webp",
+    "image": "cookies/cookie_reglisse/cookie_reglisse_tete.webp",
     "rarete": "rarete/epique.webp",
     "role": "classe/magie.webp",
     "element": ["elements_crk/element_tenebres.webp", "elements_crk/element_poison.webp"],
