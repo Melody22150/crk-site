@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Patate douce</title>
-    <link href="../assets/css/cookie_patate_douce.css" rel="stylesheet"/>
+    <link id="css-patate-douce" href="../assets/css/cookie_patate_douce.css" rel="stylesheet">
+    <link id="css-patate-douce" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-patate-douce-patate-douce-au-four" data-images='[
       "../assets/images/cookies/cookie_patate_douce/cookie_patate_douce_costume_patate_douce_au_four_nb.webp",
       "../assets/images/cookies/cookie_patate_douce/cookie_patate_douce_costume_patate_douce_au_four.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_patate_douce/cookie_patate_douce_costume_patate_douce_au_four_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_patate_douce/cookie_patate_douce_costume_patate_douce_au_four.webp"
+    data-step="0" src="../assets/images/cookies/cookie_patate_douce/cookie_patate_douce_costume_patate_douce_au_four_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/normal_costume.webp"/>
   </div>
@@ -48,7 +51,7 @@
    <h1 class="nom-cookie">Cookie Patate douce</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_patate_douce/cookie_patate_douce.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_patate_douce/cookie_patate_douce_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -134,7 +137,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="assaut-patate-douce" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-patate-douce-1" data-images='[
+          "../assets/images/biscuits/assaut_nb.webp",
+          "../assets/images/biscuits/assaut.webp"
+        ]' data-step="0" src="../assets/images/biscuits/assaut_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-patate-douce-2" data-images='[
+          "../assets/images/biscuits/assaut_nb.webp",
+          "../assets/images/biscuits/assaut.webp"
+        ]' data-step="0" src="../assets/images/biscuits/assaut_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-assaut-patate-douce-3" data-images='[
           "../assets/images/biscuits/assaut_nb.webp",
           "../assets/images/biscuits/assaut.webp"
         ]' data-step="0" src="../assets/images/biscuits/assaut_nb.webp"/>
@@ -193,7 +206,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_patate_douce.js"></script>
+ <script id="js-patate-douce" src="../assets/js/cookie_patate_douce.js"></script>
+
+ <script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-patate-douce");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-patate-douce");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>
