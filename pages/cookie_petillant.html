@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Pétillant</title>
-    <link href="../assets/css/cookie_petillant.css" rel="stylesheet"/>
+    <link id="css-petillant" href="../assets/css/cookie_petillant.css" rel="stylesheet">
+    <link id="css-petillant" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -19,8 +20,8 @@
     <div class="costume-gallery">
     <div class="costume-item">
     <img alt="Costume 1" class="costume-toggle" data-id="cookie-petillant-costume-original" data-images='[
-        "../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_original.webp"
-        ]' data-step="0" src="../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_original.webp"/>
+        "../assets/images/cookies/cookie_petillant/cookie_petillant_costume_original.webp"
+        ]' data-step="0" src="../assets/images/cookies/cookie_petillant/cookie_petillant_costume_original.webp"/>
     <div class="costume-icon">
     <img alt="Icône original" src="../assets/images/rarete/original_costume.webp"/>
     </div>
@@ -29,9 +30,11 @@
 
  <div class="costume-item">
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-petillant-rose-petillant" data-images='[
-      "../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_rose_petillant_nb.webp",
-      "../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_rose_petillant.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_rose_petillant_nb.webp"/>
+      "../assets/images/cookies/cookie_petillant/cookie_petillant_costume_rose_petillant_nb.webp",
+      "../assets/images/cookies/cookie_petillant/cookie_petillant_costume_rose_petillant.webp"
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_petillant/cookie_petillant_costume_rose_petillant.webp"
+    data-step="0" src="../assets/images/cookies/cookie_petillant/cookie_petillant_costume_rose_petillant_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/normal_costume.webp"/>
   </div>
@@ -40,9 +43,11 @@
 
  <div class="costume-item">
     <img alt="Costume 3" class="costume-toggle" data-id="cookie-petillant-invite-au-masque-dore" data-images='[
-      "../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_invite_au_masque_dore_nb.webp",
-      "../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_invite_au_masque_dore.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_pétillant/cookie_petillant_costume_invite_au_masque_dore_nb.webp"/>
+      "../assets/images/cookies/cookie_petillant/cookie_petillant_costume_invite_au_masque_dore_nb.webp",
+      "../assets/images/cookies/cookie_petillant/cookie_petillant_costume_invite_au_masque_dore.webp"
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_petillant/cookie_petillant_invite_au_masque_dore.webp"
+    data-step="0" src="../assets/images/cookies/cookie_petillant/cookie_petillant_costume_invite_au_masque_dore_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -59,7 +64,7 @@
    <h1 class="nom-cookie">Cookie Pétillant</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_pétillant/cookie_petillant.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_petillant/cookie_petillant_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -145,7 +150,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="soin-petillant" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-soin-petillant-1" data-images='[
+          "../assets/images/biscuits/soin_nb.webp",
+          "../assets/images/biscuits/soin.webp"
+        ]' data-step="0" src="../assets/images/biscuits/soin_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-soin-petillant-2" data-images='[
+          "../assets/images/biscuits/soin_nb.webp",
+          "../assets/images/biscuits/soin.webp"
+        ]' data-step="0" src="../assets/images/biscuits/soin_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-soin-petillant-3" data-images='[
           "../assets/images/biscuits/soin_nb.webp",
           "../assets/images/biscuits/soin.webp"
         ]' data-step="0" src="../assets/images/biscuits/soin_nb.webp"/>
@@ -204,7 +219,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_petillant.js"></script>
+ <script id="js-petillant" src="../assets/js/cookie_petillant.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-petillant");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-petillant");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>

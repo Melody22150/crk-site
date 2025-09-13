@@ -1191,7 +1191,7 @@
   {
     "id": "cookie-petillant",
     "nom": "Cookie Pétillant",
-    "image": "cookies/cookie_pétillant/cookie_petillant_tete.webp",
+    "image": "cookies/cookie_petillant/cookie_petillant_tete.webp",
     "rarete": "rarete/epique.webp",
     "role": "classe/soin.webp",
     "element": "",
