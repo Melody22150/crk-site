@@ -1182,7 +1182,7 @@
   {
     "id": "cookie-lys-tigre",
     "nom": "Cookie Lys Tigré",
-    "image": "cookies/cookie_lys_tigré/cookie_lys_tigre_tete.webp",
+    "image": "cookies/cookie_lys_tigre/cookie_lys_tigre_tete.webp",
     "rarete": "rarete/epique.webp",
     "role": "classe/tir.webp",
     "element": "",
