@@ -5,7 +5,8 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>Cookie Sucre glace</title>
-    <link href="../assets/css/cookie_sucre_glace.css" rel="stylesheet"/>
+    <link id="css-sucre-glace" href="../assets/css/cookie_sucre_glace.css" rel="stylesheet">
+    <link id="css-sucre-glace" href="../assets/css/responsive_1300_cookie.css" rel="stylesheet">
  </head>
 
 <body>
@@ -31,7 +32,9 @@
     <img alt="Costume 2" class="costume-toggle" data-id="cookie-sucre-glace-jiangshi-enneige" data-images='[
       "../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_jiangshi_enneige_nb.webp",
       "../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_jiangshi_enneige.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_jiangshi_enneige_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_jiangshi_enneige.webp"
+    data-step="0" src="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_jiangshi_enneige_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/rare_costume.png"/>
   </div>
@@ -42,7 +45,9 @@
     <img alt="Costume 3" class="costume-toggle" data-id="cookie-sucre-glace-symphonie-du-ciel-nocturne" data-images='[
       "../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_symphonie_du_ciel_nocturne_nb.webp",
       "../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_symphonie_du_ciel_nocturne.webp"
-    ]' data-step="0" src="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_symphonie_du_ciel_nocturne_nb.webp"/>
+    ]' 
+    data-illustration-replace="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_symphonie_du_ciel_nocturne.webp"
+    data-step="0" src="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_costume_symphonie_du_ciel_nocturne_nb.webp"/>
   <div class="costume-icon">
     <img alt="Icône normal" src="../assets/images/rarete/epique_costume.webp"/>
   </div>
@@ -59,7 +64,7 @@
    <h1 class="nom-cookie">Cookie Sucre glace</h1>
   </div>
   <div class="illustration-cookie">
-    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace.webp"/>
+    <img alt="Illustration Cookie" src="../assets/images/cookies/cookie_sucre_glace/cookie_sucre_glace_gif.webp"/>
   </div>
 
   <div class="badges">
@@ -145,7 +150,17 @@
  </div>
 
  <div class="biscuits">
-    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="magie-sucre-glace-glace" data-images='[
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-sucre-glace-glace-1" data-images='[
+          "../assets/images/biscuits/magie_acier_glace_nb.webp",
+          "../assets/images/biscuits/magie_acier_glace.webp"
+        ]' data-step="0" src="../assets/images/biscuits/magie_acier_glace_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-sucre-glace-glace-2" data-images='[
+          "../assets/images/biscuits/magie_acier_glace_nb.webp",
+          "../assets/images/biscuits/magie_acier_glace.webp"
+        ]' data-step="0" src="../assets/images/biscuits/magie_acier_glace_nb.webp"/>
+
+    <img alt="Biscuits évolutif" class="biscuit-cycle" data-id="biscuit-magie-sucre-glace-glace-3" data-images='[
           "../assets/images/biscuits/magie_acier_glace_nb.webp",
           "../assets/images/biscuits/magie_acier_glace.webp"
         ]' data-step="0" src="../assets/images/biscuits/magie_acier_glace_nb.webp"/>
@@ -204,7 +219,17 @@
  <button class="btn-save" id="btn-save">Sauvegarder</button>
  </main>
 
- <script src="../assets/js/cookie_sucre_glace.js"></script>
+ <script id="js-sucre-glace" src="../assets/js/cookie_sucre_glace.js"></script>
+
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-sucre-glace");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-sucre-glace");
+  js.src = js.src + "?v=" + version;
+</script>
 
 </body>
 </html>

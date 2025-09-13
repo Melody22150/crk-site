@@ -208,5 +208,15 @@
 
  <script id="js-seigle" src="../assets/js/cookie_seigle.js"></script>
 
+<script>
+  const version = new Date().getTime(); // timestamp unique
+
+  const css = document.getElementById("css-seigle");
+  css.href = css.href + "?v=" + version;
+
+  const js = document.getElementById("js-seigle");
+  js.src = js.src + "?v=" + version;
+</script>
+
 </body>
 </html>
