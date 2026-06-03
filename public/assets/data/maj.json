@@ -140,6 +140,13 @@
     "type": "update"
   },
   {
+    "nom": "Cookie Croissant",
+    "image": "https://res.cloudinary.com/dkgfa4apm/image/upload/v1779492552/cookie_croissant_carte_fybjoq.png",
+    "link": "cookie_detail.html?id=cookie-croissant",
+    "date": "2026-06-03T12:58:00",
+    "type": "new"
+  },
+  {
     "nom": "Cookie Cygne de Sucre",
     "image": "https://res.cloudinary.com/dkgfa4apm/image/upload/v1773251290/cookie_cygne_de_sucre_carte_jdn0xy.webp",
     "link": "cookie_detail.html?id=cookie-cygne-de-sucre",
@@ -443,7 +450,7 @@
   {
     "nom": "Cookie Sel cendré",
     "image": "https://res.cloudinary.com/dkgfa4apm/image/upload/v1779453989/cookie_sel_cendre_ok3ybd.png",
-    "link": "cookie_detail.html?id=cookie-sel-cendr",
+    "link": "cookie_detail.html?id=cookie-sel-cendre",
     "date": "2026-06-03T12:41:00",
     "type": "new"
   },

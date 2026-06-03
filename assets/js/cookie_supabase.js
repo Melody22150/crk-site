@@ -242,7 +242,8 @@ const cookieMap = {
   'cookie-mira': '6baf3641-bcfd-4d5c-86cd-6f3ce111df97',
   'cookie-rumi': '6f21c424-b415-4368-ae68-507bfb769ed8',
   'cookie-garde-temps': '3427b910-2c1a-4dbc-b77d-736bee8243ce',
-  'cookie-sel-cendre': '8e70c3f7-4641-45e5-8586-6f651e549e5f'
+  'cookie-sel-cendre': '8e70c3f7-4641-45e5-8586-6f651e549e5f',
+  'cookie-croissant': '4bb0a362-1068-4bfc-9abb-5ce4a22c5bcb'
 };
 
 if (cookieMap[cookieId]) {
