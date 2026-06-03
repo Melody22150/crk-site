@@ -206,7 +206,7 @@
     "nom": "Cookie Garde-Temps",
     "image": "https://res.cloudinary.com/dkgfa4apm/image/upload/v1779490694/cookie_garde_temps_carte_qnz91s.png",
     "link": "cookie_detail.html?id=cookie-garde-temps",
-    "date": "2026-03-06T12:28:00",
+    "date": "2026-06-03T12:28:00",
     "type": "new"
   },
   {
@@ -439,6 +439,13 @@
     "link": "cookie_detail.html?id=cookie-seigle",
     "date": "2026-02-06T22:05:00",
     "type": "update"
+  },
+  {
+    "nom": "Cookie Sel cendré",
+    "image": "https://res.cloudinary.com/dkgfa4apm/image/upload/v1779453989/cookie_sel_cendre_ok3ybd.png",
+    "link": "cookie_detail.html?id=cookie-sel-cendr",
+    "date": "2026-06-03T12:41:00",
+    "type": "new"
   },
   {
     "nom": "Cookie Sel Silencieux",
